@@ -15,6 +15,11 @@ group :production do
 end
 gem 'json'
 
+group :test do
+  gem 'selenium-webdriver', '2.35.1'
+  gem 'capybara', '2.1.0'
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
